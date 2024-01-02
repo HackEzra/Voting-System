@@ -9,17 +9,6 @@ This documentation outlines the design and implementation of a simple voting sys
 In "ONLINE VOTING SYSTEM" a voter can use his/her voting right online without any difficulty. He/She has to be registered first for him/her to vote. Registration is mainly done by the system administrator for security reasons. The system Adminstrator registers the voters on a special site of the system visited by him only by simply filling a registration form to register voter.
 After registration, the voter is assigned a secret Voter ID with which he/she can use to log into the system and enjoy services provide by the system such as voting. If invalid/wrong details are submitted, then the citizen is not registered to vote.
 
-#### Installation : 
-
-  Create a database `poll`.
-  
-  import `poll.sql` file from phpmyadmin.
-
-  ```ADMIN LOGIN DETAILS 
-  URL: localhost/online_voting/admin 
-  Email : admin@gmail.com 
-  Password : admin 
-  ```
 
 ## Features
 
@@ -46,12 +35,19 @@ After registration, the voter is assigned a secret Voter ID with which he/she ca
 ## Installation
 
 1. **Database Setup:**
-   - Create a MySQL database and import the provided SQL schema.
-   - Update `config.php` with your database credentials.
+   Create a database `poll`.
+  
+  import `poll.sql` file from phpmyadmin.
+
 
 2. **User Authentication:**
-   - Utilize PHP sessions for user authentication.
-   - Hash passwords before storing them in the database.
+   
+   ```ADMIN LOGIN DETAILS 
+  URL: localhost/online_voting/admin 
+  Email : admin@gmail.com 
+  Password : admin 
+  ```
+```
 
 3. **Voting Pages:**
    - Implement pages for users to view polls, options, and cast votes.
