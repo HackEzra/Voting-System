@@ -35,7 +35,8 @@ After registration, the voter is assigned a secret Voter ID with which he/she ca
 ## Installation
 
 1. **Database Setup:**
-   Create a database `poll`.
+   
+  Create a database `poll`.
   
   import `poll.sql` file from phpmyadmin.
 
@@ -47,7 +48,6 @@ After registration, the voter is assigned a secret Voter ID with which he/she ca
   Email : admin@gmail.com 
   Password : admin 
   ```
-```
 
 3. **Voting Pages:**
    - Implement pages for users to view polls, options, and cast votes.
